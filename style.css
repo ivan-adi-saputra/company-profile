@@ -1,11 +1,8 @@
-body {
-  height: 1000px;
-}
 /* navbar */
-.navbar {
+/* .navbar {
   position: relative;
   z-index: 1;
-}
+} */
 
 .navbar-brand {
   font-family: Viga;
@@ -19,7 +16,7 @@ body {
   background-size: cover;
   height: 450px;
   text-align: center;
-  position: relative;
+  /* position: relative; */
 }
 
 .jumbotron .display-4 {
@@ -27,10 +24,10 @@ body {
   padding-top: 200px !important;
 }
 
-.jumbotron .container {
+/* .jumbotron .container {
   position: relative;
   z-index: 1;
-}
+} */
 
 .jumbotron span {
   font-weight: 500;
@@ -78,6 +75,29 @@ body {
   font-size: 13px;
   font-weight: 300;
   margin-top: -5px;
+}
+
+/* working space */
+.working-space {
+  margin-top: 150px;
+}
+
+.working-space h3 {
+  font-size: 62px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.working-space span {
+  font-weight: 500;
+}
+
+.working-space p {
+  font-size: 16px;
+  color: #585555;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 /* utility */
